@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 150vh;
+    font-family: sans-serif;
+}
+
+.navbar{
+    background: #3474e6;
+    color: #fff;
+    height: 60px;
+    z-index: 1000;
+    position: fixed;
+    width: 100%;
+
+ }
+ .navbar .main-heading{
+    font-size: x-large;
+    font-weight: bold;
+ }
+ ul{
+    list-style-type: none;
+ }
+ .container{
+ 
+ max-width: 1100px;
+ margin: 0 auto;
+ padding: 0 30px;
+ }
+
+ .navbar a:hover{
+    color: lightblue;
+ }
+ .navbar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .navbar a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+ }
+ .navbar ul{
+    display: flex;
+ }
+ .navbar ul li{
+    margin-left: 20px;
+ 
+ }
+ 
+ .images{
+    height: 400px;
+    width: 400px;
+    animation: animate 50s ease-in-out infinite;
+    border-radius: 20px;
+    top: 15%;
+    left: 60%;
+    background-size: cover;
+    position: absolute;
+ }
+ @keyframes animate{
+    0%,100%{
+        background-image: url(./images/4f884048-b5fe-48b3-93ed-d75da2b83c8d.jfif);
+    }
+    25%{
+   background-image: url(./images/Mika.jfif);
+    }
+    50%{
+    background-image: url(./images/smiling\ woman.jpg);
+    }
+    75%{
+        background-image: url(./images/Ryan\ Reynolds.jfif);
+    }
+ }
+
+   
+ .mission{
+    position: absolute;
+    top: 220px;
+    left: 230px;
+ }
+ .images2{
+    height: 400px;
+    width: 400px;
+    animation: animate2 30s ease-in-out infinite;
+    border-radius: 20px;
+    top: 90%;
+    left: 50%;
+    background-size: cover;
+    position: absolute;
+
+ }
+
+ .vision{
+    position: absolute;
+    top: 90%;
+    left: 100px;
+ }
+ @keyframes animate2{
+    0%,100%{
+        background-image: url(./images/mapoftheworld.jpg);
+    }
+    40%{
+   background-image: url(././images/branches.jpg);
+    }
+  
+    75%{
+        background-image: url(./images/branch.jfif);
+    }
+ }
